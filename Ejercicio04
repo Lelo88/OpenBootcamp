@@ -1,0 +1,43 @@
+public class Main {
+    public static void main(String[] args) {
+        
+        Cliente cliente1=new Cliente();
+        cliente1.setEdad(33);
+        cliente1.setNombre("Leandro");
+        cliente1.setTelefono("1169226419");
+        cliente1.setCredito(21554);
+        
+        int edad = cliente1.getEdad();
+        int credito = cliente1.getCredito();
+        String nombre = cliente1.getNombre();
+        String telefono = cliente1.getTelefono();
+
+        System.out.printf("Nombre: %s \t Edad: %d\t Telefono: %s\t Credito: %d",nombre, edad, telefono, credito);
+       
+        Trabajador trabajador1 = new Trabajador();
+        trabajador1.setEdad(56);
+        trabajador1.setNombre("Eduardo");
+        trabajador1.setTelefono("54616516");
+        trabajador1.setSalario(4848);
+        
+        int edad1 = trabajador1.getEdad();
+        String nombre1 = trabajador1.getNombre();
+        String telefono1 = trabajador1.getTelefono();
+        int salario = trabajador1.getSalario();
+
+        System.out.printf("Nombre: %s \t Edad: %d\t Telefono: %s\t Credito: %d",nombre1, edad1, telefono1, salario);
+    }
+}
+
+class Persona {
+    int edad;
+    String nombre;
+    String telefono;
+
+    public void setEdad(int edad) {
+        this.edad = edad;
+    }
+
+    public int getEdad() {
+        return edad;
+    }
