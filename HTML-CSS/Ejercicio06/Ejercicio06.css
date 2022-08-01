@@ -1,0 +1,18 @@
+.boton-principal{
+    color: white;
+    background-color: black;
+}
+
+.boton-principal:hover{
+    color:green;
+    background-color: white; 
+}
+
+
+.boton-principal::before{
+    content: 'Pasa por encima';
+} 
+
+.boton-principal:hover::before{
+    content: '¡Hecho!';
+}
