@@ -1,0 +1,15 @@
+{
+  "name": "ejercicionode",
+  "version": "1.0.0",
+  "description": "Este es el ejercicio de npm en OpenBootcamp",
+  "main": "index.js",
+  "scripts": {
+    "saludar": "node ejercicio.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ejercicio"
+  ],
+  "author": "Leandro Villalba",
+  "license": "ISC"
+}
